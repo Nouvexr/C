@@ -3,9 +3,14 @@
 int maximum(int, int, int); /* protótipo da funcao */
 main() {
 int a, b, c;
-printf("Entre com tres inteiros: ");
-scanf("%d%d%d", &a, &b, &c);
-printf("O maior e: %d\n", maximum(a, b, c));
+printf("Digite tres sequencias de numeros e o programa lhe dirá qual foi o maior valor!\n");
+printf("Primeiro numero: ");
+scanf("%d", &a);
+printf("Segundo numero: ");
+scanf("%d", &b);
+printf("Terceiro numero: ");
+scanf("%d", &c);
+printf("O maior valor digitado foi: %d\n", maximum(a, b, c));
 return 0; 
 }
 /* Definição da funcao maximum */
